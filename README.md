@@ -50,4 +50,18 @@ The foundation of this solution is a **production-grade star schema**, ensuring 
 
 ---
 
-> This semantic model empowers automotive data teams and business stakeholders to transform raw telemetry signals into actionable intelligence—enhancing safety, performance, and operational efficiency at scale.
+## 🧩 Integration Support & Streaming Data Simulation
+
+- **Power BI Analytics Platform**  
+  Fully compatible with the Power BI ecosystem, supporting real-time dashboards, paginated reports, and embedded analytics. The semantic model allows seamless exploration through Power BI service or Desktop, with drill-down, drill-through, and custom visuals for advanced telemetry insights.
+
+- **Streaming Synthetic Data Generator**  
+  A synthetic data pipeline is provided to simulate realistic vehicle telemetry and geospatial (GPS) data in real time. This includes:
+  - Configurable vehicle profiles and telemetry signal ranges
+  - Route simulation using live or pre-defined geospatial paths
+  - Emission of data to Event Hubs, IoT Hubs, or REST endpoints
+  - Ideal for testing dashboards, training models, or validating alert logic
+
+---
+
+> This solution empowers automotive data teams and business stakeholders to transform raw telemetry signals into actionable intelligence—enhancing safety, performance, and operational efficiency at scale. Its extensibility and simulation capabilities make it perfect for both development and production environments.
