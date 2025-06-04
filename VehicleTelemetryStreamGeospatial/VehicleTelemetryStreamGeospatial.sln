@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.36105.23 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "VehicleTelemetryStreamGeospatial", "VehicleTelemetryStreamGeospatial.pyproj", "{4779358F-E4E0-408C-8914-F5B63BBFCAFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4779358F-E4E0-408C-8914-F5B63BBFCAFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4779358F-E4E0-408C-8914-F5B63BBFCAFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A44A7A08-4A4A-48DF-8A1E-9CC505D9AEBA}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,52 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>252f46b5-b689-4d3e-b09c-b1f3ed480056</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>VehicleTelemetryStreamGeospatial\subprocess_start.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>Power-BI-Microsoft-Fabric</Name>
+    <RootNamespace>Power-BI-Microsoft-Fabric</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="VehicleTelemetryStreamGeospatial\config.py" />
+    <Compile Include="VehicleTelemetryStreamGeospatial\subprocess_start.py" />
+    <Compile Include="VehicleTelemetryStreamGeospatial\VehicleTelemetryStream.py" />
+    <Compile Include="VehicleTelemetryStreamGeospatial\VehicleTelemetryStreamGeospatial.py" />
+    <Compile Include="VehicleTelemetryStreamGeospatial\VehicleTelemetryStreamGeospatial_osmnx.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="data\" />
+    <Folder Include="Power BI\" />
+    <Folder Include="VehicleTelemetryStreamGeospatial\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="data\README.md" />
+    <Content Include="data\VehicleTelemetryDM.bak" />
+    <Content Include="LICENSE" />
+    <Content Include="Power BI\README.md" />
+    <Content Include="Power BI\VehicleTelemetry.pbit" />
+    <Content Include="VehicleTelemetryStreamGeospatial\README.md" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
