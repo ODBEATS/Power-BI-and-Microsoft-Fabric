@@ -35,6 +35,7 @@
   <ItemGroup>
     <Content Include="data\README.md" />
     <Content Include="data\VehicleTelemetryDM.bak" />
+    <Content Include="data\VehicleTelemetryDM.zip" />
     <Content Include="LICENSE" />
     <Content Include="Power BI\README.md" />
     <Content Include="Power BI\VehicleTelemetry.pbit" />
