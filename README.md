@@ -1,30 +1,53 @@
-# Power-BI-Microsoft-Fabric
+# 🚗 Vehicle Telemetry Analytics – Semantic Model Overview
 
-🚗 Vehicle Telemetry Analytics – Semantic Model Overview
-This Power BI solution provides a robust, scalable semantic model and dashboard suite for monitoring, analyzing, and optimizing vehicle performance, health, usage, and safety using real-time and historical telemetry data. It is built on a comprehensive star schema designed for production-grade use across automotive, fleet, and mobility platforms.
+This Power BI solution delivers a **robust and scalable semantic model** paired with a powerful dashboard suite to monitor, analyze, and optimize vehicle performance, health, usage, and safety. Leveraging both **real-time** and **historical telemetry data**, this model is suitable for **automotive manufacturers, fleet managers, telematics providers**, and **mobility platforms**.
 
-📊 Key Capabilities
-Real-Time Telemetry Streaming: G-force, speed, RPM, fuel level, tire pressure, battery voltage, and more
+The foundation of this solution is a **production-grade star schema**, ensuring high performance and extensibility for enterprise-level analytics.
 
-Driver Behavior Insights: Acceleration, braking, idling, safety alerts, and satisfaction scores
+---
 
-Vehicle Health Monitoring: Engine temperature, oil pressure, diagnostic codes, and maintenance events
+## 📊 Key Capabilities
 
-Trip & Performance Analytics: Trip summaries, geolocation tracking, fuel usage, and route efficiency
+- **Real-Time Telemetry Streaming**  
+  Monitor G-force, speed, RPM, fuel level, tire pressure, battery voltage, and more in real time.
 
-Service & Maintenance Tracking: Scheduled and unscheduled service visits, technician performance
+- **Driver Behavior Insights**  
+  Analyze driver actions including acceleration, braking, idling, safety alert events, and satisfaction scoring.
 
-Geospatial Visualization: Live route maps and trip playback
+- **Vehicle Health Monitoring**  
+  Track key metrics such as engine temperature, oil pressure, diagnostic trouble codes (DTCs), and historical maintenance events.
 
-Compliance & Alerting: Alert categorization by severity, diagnostic insights, and predictive indicators
+- **Trip & Performance Analytics**  
+  Generate trip summaries, geolocation tracking, route optimization, and fuel efficiency metrics.
 
-🧠 Architecture & Design Highlights
-Built on a high-performance star schema with dimensional modeling best practices
+- **Service & Maintenance Tracking**  
+  Record and evaluate both scheduled and unscheduled service visits, including technician performance and resolution time.
 
-Supports DirectQuery and real-time streaming datasets
+- **Geospatial Visualization**  
+  Visualize routes with interactive maps and playback features for historical trip data.
 
-Incorporates DimDate/DimTime conformed dimensions for unified time intelligence
+- **Compliance & Alerting**  
+  Categorize alerts by severity, provide diagnostic insights, and flag predictive indicators for preemptive action.
 
-Extensible with calculated measures and KPI logic (DAX) for advanced insights
+---
 
-Designed to support multiple data sources and be a plug-and-play semantic model for vehicle data lakes or telematics APIs
+## 🧠 Architecture & Design Highlights
+
+- **Star Schema Foundation**  
+  Built using dimensional modeling best practices for performance and clarity.
+
+- **Real-Time Compatibility**  
+  Supports both **DirectQuery** and **streaming datasets** for instant updates.
+
+- **Unified Time Intelligence**  
+  Utilizes `DimDate` and `DimTime` conformed dimensions to enable accurate time-based analytics.
+
+- **Advanced Analytical Logic**  
+  Includes calculated measures and KPIs via **DAX**, supporting complex analytical scenarios.
+
+- **Extensibility & Integration**  
+  Designed to integrate easily with diverse data sources, including **vehicle data lakes** and **telematics APIs** for a plug-and-play experience.
+
+---
+
+> This semantic model empowers automotive data teams and business stakeholders to transform raw telemetry signals into actionable intelligence—enhancing safety, performance, and operational efficiency at scale.
