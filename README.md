@@ -63,4 +63,11 @@ The foundation of this solution is a production-grade star schema, ensuring high
 
 ---
 
+## 🙌 Authors & Acknowledgments
+
+- Vision and engineering by **Hans Esquivel**
+- Powered by **VS Professional, Python, and SQL Server**
+  
+---
+
 > This solution empowers automotive data teams and business stakeholders to transform raw telemetry signals into actionable intelligence - enhancing safety, performance, and operational efficiency at scale. Its extensibility and simulation capabilities make it perfect for both development and production environments.
