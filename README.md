@@ -63,4 +63,4 @@ The foundation of this solution is a production-grade star schema, ensuring high
 
 ---
 
-> This solution empowers automotive data teams and business stakeholders to transform raw telemetry signals into actionable intelligence—enhancing safety, performance, and operational efficiency at scale. Its extensibility and simulation capabilities make it perfect for both development and production environments.
+> This solution empowers automotive data teams and business stakeholders to transform raw telemetry signals into actionable intelligence - enhancing safety, performance, and operational efficiency at scale. Its extensibility and simulation capabilities make it perfect for both development and production environments.
