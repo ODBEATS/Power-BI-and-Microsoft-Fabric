@@ -1,8 +1,8 @@
 # 🚗 Vehicle Telemetry Analytics – Semantic Model Overview
 
-This Power BI solution delivers a **robust and scalable semantic model** paired with a powerful dashboard suite to monitor, analyze, and optimize vehicle performance, health, usage, and safety. Leveraging both **real-time** and **historical telemetry data**, this model is suitable for **automotive manufacturers, fleet managers, telematics providers**, and **mobility platforms**.
+This Power BI solution delivers a robust and scalable semantic model paired with a powerful dashboard suite to monitor, analyze, and optimize vehicle performance, health, usage, and safety. Leveraging both real-time and historical telemetry data, this model is suitable for automotive manufacturers, fleet managers, telematics providers, and mobility platforms.
 
-The foundation of this solution is a **production-grade star schema**, ensuring high performance and extensibility for enterprise-level analytics.
+The foundation of this solution is a production-grade star schema, ensuring high performance and extensibility for enterprise-level analytics.
 
 ---
 
@@ -37,16 +37,16 @@ The foundation of this solution is a **production-grade star schema**, ensuring 
   Built using dimensional modeling best practices for performance and clarity.
 
 - **Real-Time Compatibility**  
-  Supports both **DirectQuery** and **streaming datasets** for instant updates.
+  Supports both DirectQuery and streaming datasets for instant updates.
 
 - **Unified Time Intelligence**  
   Utilizes `DimDate` and `DimTime` conformed dimensions to enable accurate time-based analytics.
 
 - **Advanced Analytical Logic**  
-  Includes calculated measures and KPIs via **DAX**, supporting complex analytical scenarios.
+  Includes calculated measures and KPIs via DAX, supporting complex analytical scenarios.
 
 - **Extensibility & Integration**  
-  Designed to integrate easily with diverse data sources, including **vehicle data lakes** and **telematics APIs** for a plug-and-play experience.
+  Designed to integrate easily with diverse data sources, including vehicle data lakes and telematics APIs for a plug-and-play experience.
 
 ---
 
@@ -58,8 +58,7 @@ The foundation of this solution is a **production-grade star schema**, ensuring 
 - **Streaming Synthetic Data Generator**  
   A synthetic data pipeline is provided to simulate realistic vehicle telemetry and geospatial (GPS) data in real time. This includes:
   - Configurable vehicle profiles and telemetry signal ranges
-  - Route simulation using live or pre-defined geospatial paths
-  - Emission of data to Event Hubs, IoT Hubs, or REST endpoints
+  - Route simulation using live or pre-defined geospatial paths 
   - Ideal for testing dashboards, training models, or validating alert logic
 
 ---
