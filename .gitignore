@@ -363,3 +363,4 @@ MigrationBackup/
 FodyWeavers.xsd
 /data/VehicleTelemetryDM.bak
 /code/VehicleTelemetryStreamGeospatial/config.py
+/app_code/config.py
