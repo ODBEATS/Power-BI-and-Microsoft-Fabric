@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>252f46b5-b689-4d3e-b09c-b1f3ed480056</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>code\VehicleTelemetryStreamGeospatial\subprocess_start.py</StartupFile>
+    <StartupFile>app_code\VehicleTelemetryStreamGeospatial\subprocess_start.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,17 +21,18 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="code\VehicleTelemetryStreamGeospatial\config.py" />
-    <Compile Include="code\VehicleTelemetryStreamGeospatial\subprocess_start.py" />
-    <Compile Include="code\VehicleTelemetryStreamGeospatial\VehicleTelemetryStream.py" />
-    <Compile Include="code\VehicleTelemetryStreamGeospatial\VehicleTelemetryStreamGeospatial.py" />
-    <Compile Include="code\VehicleTelemetryStreamGeospatial\VehicleTelemetryStreamGeospatial_osmnx.py" />
+    <Compile Include="app_code\config.py" />
+    <Compile Include="app_code\VehicleTelemetryStreamGeospatial\subprocess_start.py" />
+    <Compile Include="app_code\VehicleTelemetryStreamGeospatial\VehicleTelemetryStream.py" />
+    <Compile Include="app_code\VehicleTelemetryStreamGeospatial\VehicleTelemetryStreamGeospatial.py" />
+    <Compile Include="app_code\VehicleTelemetryStreamGeospatial\VehicleTelemetryStreamGeospatial_osmnx.py" />
+    <Compile Include="app_code\__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="data\" />
-    <Folder Include="code\" />
+    <Folder Include="app_code\" />
     <Folder Include="Power BI\" />
-    <Folder Include="code\VehicleTelemetryStreamGeospatial\" />
+    <Folder Include="app_code\VehicleTelemetryStreamGeospatial\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="data\README.md" />
@@ -39,7 +40,7 @@
     <Content Include="LICENSE" />
     <Content Include="Power BI\README.md" />
     <Content Include="Power BI\VehicleTelemetry.pbit" />
-    <Content Include="code\VehicleTelemetryStreamGeospatial\README.md" />
+    <Content Include="app_code\VehicleTelemetryStreamGeospatial\README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

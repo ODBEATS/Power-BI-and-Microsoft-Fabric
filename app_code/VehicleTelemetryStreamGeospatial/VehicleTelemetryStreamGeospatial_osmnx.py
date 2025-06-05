@@ -10,7 +10,7 @@ from datetime import datetime, timedelta
 import random
 import math
 import openrouteservice
-from config import BaseConfig as app
+from app_code.config import BaseConfig as app
 
 # --- CONFIGURATION SECTION ---
 CITY = "San Francisco"  # Options: "San Francisco" or "San Diego"

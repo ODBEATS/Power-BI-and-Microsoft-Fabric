@@ -2,7 +2,7 @@ import pyodbc
 import random
 import time
 from datetime import datetime
-from config import BaseConfig as app
+from app_code.config import BaseConfig as app
 
 # --- CONFIGURATION SECTION ---
 # Set the starting city for the simulated GPS stream.
