@@ -121,8 +121,8 @@ To enable real-time data updates in Power BI, configure the Power BI page [] to 
 
 **Steps:** 
 1. Navigate to the **Vehicle Pulse** page in Power BI Desktop.	
-	- Click on the page border to ensure the Visualization pane renders	
-	&nbsp;&nbsp;&nbsp;![Page border](../media/click_page_border.png)</br>
+	- Click on the page border to ensure the Visualization pane renders</br>
+	![Page border](../media/click_page_border.png)</br>
 	:information_source: *Ensure you have enabled the Visualization pane in Power BI Desktop. If not visible, you can enable it from the View tab.*
 2. Validate the Visualization pane is active and that your see the following:</br>
 	- **Visualizations Pane**</br>
