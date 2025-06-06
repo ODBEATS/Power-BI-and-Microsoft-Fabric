@@ -31,6 +31,7 @@
   <ItemGroup>
     <Folder Include="data\" />
     <Folder Include="app_code\" />
+    <Folder Include="media\" />
     <Folder Include="Power BI\" />
     <Folder Include="app_code\VehicleTelemetryStreamGeospatial\" />
   </ItemGroup>
@@ -38,6 +39,9 @@
     <Content Include="data\README.md" />
     <Content Include="data\VehicleTelemetryDM.zip" />
     <Content Include="LICENSE" />
+    <Content Include="media\click_page_border.png" />
+    <Content Include="media\refresh_page_settings.png" />
+    <Content Include="media\visualizations_pane.png" />
     <Content Include="Power BI\README.md" />
     <Content Include="Power BI\VehicleTelemetry.pbit" />
     <Content Include="app_code\VehicleTelemetryStreamGeospatial\README.md" />

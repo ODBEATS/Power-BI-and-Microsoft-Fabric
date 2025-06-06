@@ -116,6 +116,25 @@ This Power BI model follows a normalized star schema that separates facts and di
   * Trip heatmaps
   * Diagnostic and service timelines
 
+## Configuration | Page Refresh for Real-Time Data
+To enable real-time data updates in Power BI, configure the Power BI page [] to refresh at intervals that suit your telemetry ingestion rate. This can be set up in the Power BI Desktop/Service within the **Viualization** pane and then the settings.
+
+**Steps:** 
+1. Navigate to the **Vehicle Pulse** page in Power BI Desktop.	
+	- Click on the page border to ensure the Visualization pane renders	
+	&nbsp;&nbsp;&nbsp;![Page border](../media/click_page_border.png)</br>
+	:information_source: *Ensure you have enabled the Visualization pane in Power BI Desktop. If not visible, you can enable it from the View tab.*
+2. Validate the Visualization pane is active and that your see the following:</br>
+	- **Visualizations Pane**</br>
+	![Visualization pane](../media/visualizations_pane.png)
+	- Click on the highlighted Paper-Brush icon to open the **Page Format** settings.	
+3. In the **Page Format** settings, scroll down to find the **Page refresh** option.
+	- Toggle the switch to **On** to enable real-time updates.
+	- Set the desired refresh interval (e.g., every 1 seconds) based on your telemetry data ingestion rate.</br>
+	![Page refresh settings](../media/refresh_page_settings.png)</br>
+	:information_source: *Once page refreshing is enabled, be sure to kick-start the VehicleTelemetryStreamGeospatial python project*
+		
+
 ## Licensing and Compliance
 
 * Fully customizable for OEMs, fleet operators, and solution integrators
